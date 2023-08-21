@@ -26,14 +26,14 @@
 
 #define ARCHI_SOC_PERIPHERALS_ADDR    0x1A100000
 
-#define ARCHI_FC_TIMER_SIZE                 0x00000800
+#define ARCHI_FC_TIMER_SIZE           0x00000800
 
 #define ARCHI_FLL_OFFSET              0x00000000
 #define ARCHI_GPIO_OFFSET             0x00001000
 #define ARCHI_UDMA_OFFSET             0x00002000
 #define ARCHI_APB_SOC_CTRL_OFFSET     0x00004000
 #define ARCHI_SOC_EU_OFFSET           0x00006000
-#define ARCHI_FC_ITC_OFFSET           0x00009800
+#define ARCHI_FC_ITC_OFFSET           0x00009000 // 0x00009800 HC's comment: Datasheet shown 0x9000 instead of 0x9800
 #define ARCHI_FC_TIMER_OFFSET         0x0000B000
 #define ARCHI_FC_HWPE_OFFSET          0x0000C000
 #define ARCHI_STDOUT_OFFSET           0x0000F000
